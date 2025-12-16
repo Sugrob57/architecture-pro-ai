@@ -48,8 +48,8 @@ dist/
 *.pid
 
 # Базы данных (по ситуации)
-*.sqlite3
-db.sqlite3
+#*.sqlite3
+#db.sqlite3
 
 
 .venv/lib64
