@@ -1,0 +1,55 @@
+# Байткод и кэш интерпретатора
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+.venv/**
+venv/**
+env/**
+ENV/**
+
+.venv/
+venv/
+env/
+ENV/
+
+# Логи
+*.log
+
+# Тестовые отчёты и coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+
+# Артефакты сборки и дистрибуции
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Настройки IDE / редакторов
+.vscode/
+.idea/
+*.swp
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Переменные окружения и секреты
+.env
+.env.*
+*.pid
+
+# Базы данных (по ситуации)
+*.sqlite3
+db.sqlite3
+
+
+.venv/lib64
