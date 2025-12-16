@@ -1,0 +1,22 @@
+{
+  "post_uid": "gooddrink_000017",
+  "content": {
+    "text": "#ipa\n\nCyberpank shotgun\nDouble American ipa\n#polnochny_project\n\nИПАстость: 4/10\nГоречь: 6/10\nВкус, насыщенность: 4/10\nКрепость: 8,6%\nПослевкусие: 6/10\n\nХотели сделать погорчее, а сделали крепко и со вкусом спирта. На вкус, немного, как коктейль «Ёрш». Как будто спирта рюмку подлили в пиво. И тем самым испортили неплохую ипу. Впринципе все есть. И вкус, и горечь и послевкусие… но этот привкус спирта портит абсолютно все.",
+    "photos": [
+      "photos/photo_16@12-06-2024_00-16-26.jpg",
+      "photos/photo_17@12-06-2024_00-16-26.jpg"
+    ]
+  },
+  "metadata": {
+    "channel_name": "GoodDrink",
+    "channel_id": 2161815687,
+    "post_id": 17,
+    "date": "2024-06-12T00:16:26",
+    "date_unixtime": 1718140586,
+    "hashtags": [
+      "ipa",
+      "polnochny_project"
+    ],
+    "telegram_url": "https://t.me/GoodDrink/17"
+  }
+}

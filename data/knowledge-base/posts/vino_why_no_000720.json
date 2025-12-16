@@ -1,0 +1,21 @@
+{
+  "post_uid": "vino_why_no_000720",
+  "content": {
+    "text": "И немного фото",
+    "photos": [
+      "photos/photo_350@05-08-2022_11-47-05.jpg",
+      "photos/photo_351@05-08-2022_11-47-05.jpg",
+      "photos/photo_352@05-08-2022_11-47-05.jpg",
+      "photos/photo_353@05-08-2022_11-47-05.jpg"
+    ]
+  },
+  "metadata": {
+    "channel_name": "vino_why_no",
+    "channel_id": 1156530244,
+    "post_id": 720,
+    "date": "2022-08-05T11:47:05",
+    "date_unixtime": 1659689225,
+    "hashtags": [],
+    "telegram_url": "https://t.me/vino_why_no/720"
+  }
+}

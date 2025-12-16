@@ -1,0 +1,23 @@
+{
+  "post_uid": "gooddrink_000272",
+  "content": {
+    "text": "#ipa\n\n#white_stone_brewery  \nHBC 286\nDouble Ipa\n\nИПАстость: 5/10\nГоречь: 6/10\nВкус, насыщенность: 6/10\nКрепость: 8,1%\nПослевкусие: 4/10\n\nТот случай когда дабл не удался. Крепко, но со вкусом спирта. Пить можно, хмель чувствуется хорошо, но солода и травянных, цитрусовых нот почти не различить. Слабо",
+    "photos": [
+      "photos/photo_262@22-06-2025_02-41-52.jpg",
+      "photos/photo_263@22-06-2025_02-41-52.jpg",
+      "photos/photo_264@22-06-2025_02-41-52.jpg"
+    ]
+  },
+  "metadata": {
+    "channel_name": "GoodDrink",
+    "channel_id": 2161815687,
+    "post_id": 272,
+    "date": "2025-06-22T02:41:52",
+    "date_unixtime": 1750549312,
+    "hashtags": [
+      "ipa",
+      "white_stone_brewery"
+    ],
+    "telegram_url": "https://t.me/GoodDrink/272"
+  }
+}
