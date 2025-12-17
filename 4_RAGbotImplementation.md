@@ -92,6 +92,11 @@ System: Ты помощник, который сначала размышляе�
 ### Описание алгоритма
 
 Для реализации RAG-pipeline подготовлен скрипт [/data/4_rag_console_client.py](/data/4_rag_console_client.py).
+
+```bash
+python ./data/4_rag_console_client.py
+```
+
 Данный скрипт запускает консольное приложение, которое готово принимать текстовые запросы, и обрабатывать их.
 Обработка выполняется по следующему алгоритму:
 1. Загружается ранее созданный индекс (CromaDB)
@@ -139,13 +144,13 @@ System: Ты помощник, который сначала размышляе�
 ### Примеры диалогов
 
 Вопросы с ответом:
-![](/sprint7/git2/data/knowledge-base/screens/chatScreen_1.png)
-![](/sprint7/git2/data/knowledge-base/screens/chatScreen_2.png)
-![](/sprint7/git2/data/knowledge-base/screens/chatScreen_3.png)
+![screen1](/data/screens/chatScreen_1.png)
+![screen2](/data/screens/chatScreen_2.png)
+![screen3](/data/screens/chatScreen_3.png)
 
 Вопросы без ответа:
-![](/sprint7/git2/data/knowledge-base/screens/chatScreen_4.png)
+![screen4](/data/screens/chatScreen_4.png)
 
 Вопросы с размышлением (CoT):
-![](/sprint7/git2/data/knowledge-base/screens/chatScreen_Cot_5.png)
-![](/sprint7/git2/data/knowledge-base/screens/chatScreen_Cot_6.png)
+![screen5](/data/screens/chatScreen_Cot_5.png)
+![screen6](/data/screens/chatScreen_Cot_6.png)

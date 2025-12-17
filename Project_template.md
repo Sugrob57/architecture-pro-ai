@@ -15,3 +15,7 @@
 ## 4. Реализация RAG-бота с техниками промптинга
 
 [4_RAGbotImplementation.md](/4_RAGbotImplementation.md)
+
+## 5. Запуск и демонстрация работы бота
+
+[5_ragBotDemo.md](/5_ragBotDemo.md)
