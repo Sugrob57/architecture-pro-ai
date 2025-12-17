@@ -16,7 +16,7 @@
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install langchain faiss-cpu sentence-transformers chromadb langchain langchain-text-splitters
+pip install langchain faiss-cpu sentence-transformers chromadb langchain langchain-text-splitters openai
 ```
 
 ### 2. Выполнить скрипт
@@ -48,7 +48,8 @@ Batches: 100%|██████████████████████
 
 ## 3. Проверка
 
-Для проверки запустить скрипт:
+Для проверки запустить скрипт [/data/3_check_index.py](/data/3_check_index.py):
+
 ```bash
 python ./data/3_check_index.py 
 ```

@@ -22,8 +22,9 @@
 
 1) Указать путь для параметров скрипта `INPUT_JSON`, `OUTPUT_DIR`.
 
-2) Выполнить скрипт [/data/2_rawdata_parser.py](/2_rawdata_parser.py):
+2) Выполнить скрипт [/data/2_rawdata_parser.py](/data/2_rawdata_parser.py):
 
 ```bash
 python ./data/2_rawdata_parser.py
 ```
+

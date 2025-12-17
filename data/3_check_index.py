@@ -11,7 +11,8 @@ model = SentenceTransformer(
     "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 )
 
-query = "посоветуй горькую IPA с насыщенным вкусом"
+query = "Назови IPA, похожие на панкИпа?"
+#"посоветуй горькую IPA с насыщенным вкусом"
 embedding = model.encode(query).tolist()
 
 res = collection.query(

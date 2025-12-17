@@ -12,3 +12,6 @@
 
 [3_CreateVectorIndex.md](/3_CreateVectorIndex.md)
 
+## 4. Реализация RAG-бота с техниками промптинга
+
+[4_RAGbotImplementation.md](/4_RAGbotImplementation.md)
