@@ -1,0 +1,44 @@
+@startuml Componencts.IndexUpdater
+title System Components Diagram
+
+package "Index Update System" {
+  component "IndexUpdater" as updater {
+    [Document Scanner]
+    [Hash Manager]
+    [Error Handler]
+    [Batch Processor]
+    [Text Splitter]
+    [Chunk Generator]
+  }
+
+  component "Scheduler" as scheduler {
+    [Timer]
+    [Repeat configuration]
+  }
+  
+  component "Embedding Service" as embedding {
+    [Sentence Transformer model]
+    [Batch Encoder]
+  }
+  
+  component "Database" as db {
+    [Вектора]
+  }
+  
+  component "File storage" as storage {
+    [Директория с данными]
+    [Файл с хэшами файлов с данными]
+    [Директория с файлами БД CromaDB]
+    [Логи ошибок]
+  }
+}
+
+scheduler --> updater: init
+updater --> embedding : uses
+updater --> db : manages
+updater --> storage : reads/writes
+
+embedding --> storage : reads models
+db --> storage : persists data
+
+@enduml

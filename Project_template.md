@@ -1,21 +1,8 @@
-# 
+# Создание AI ML чат-бота
 
-## 1. Исследование моделей и инфраструктуры
-
-[1_ModelsAndInfraResearch.md](/1_ModelsAndInfraResearch.md)
-
-## 2. Подготовка базы знаний
-
-[2_PrepareKnowledgeBase.md](/2_PrepareKnowledgeBase.md)
-
-## 3. Создание векторного индекса базы знаний
-
-[3_CreateVectorIndex.md](/3_CreateVectorIndex.md)
-
-## 4. Реализация RAG-бота с техниками промптинга
-
-[4_RAGbotImplementation.md](/4_RAGbotImplementation.md)
-
-## 5. Запуск и демонстрация работы бота
-
-[5_ragBotDemo.md](/5_ragBotDemo.md)
+- [1. Исследование моделей и инфраструктуры](/1_ModelsAndInfraResearch.md)
+- [2. Подготовка базы знаний](/2_PrepareKnowledgeBase.md)
+- [3. Создание векторного индекса базы знаний](/3_CreateVectorIndex.md)
+- [4. Реализация RAG-бота с техниками промптинга](/4_RAGbotImplementation.md)
+- [5. Запуск и демонстрация работы бота](/5_ragBotDemo.md)
+- [6. Автоматическое ежедневное обновление базы знаний](/6_DataAutoUpdate.md)
