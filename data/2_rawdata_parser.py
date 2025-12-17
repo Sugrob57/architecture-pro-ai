@@ -4,8 +4,8 @@ from pathlib import Path
 
 # ====== НАСТРОЙКИ ======
 
-INPUT_JSON = "/home/ubuntu/sprint7/git2/data/knowledge-base/exported_data_ipa/result.json"  # экспорт Telegram
-OUTPUT_DIR = "/home/ubuntu/sprint7/git2/data/knowledge-base/posts"                          # куда сохранять посты
+INPUT_JSON = "./data/knowledge-base/exported_data_ipa/result.json"  # экспорт Telegram
+OUTPUT_DIR = "./data/knowledge-base/posts"                          # куда сохранять посты
 
 # =======================
 
@@ -108,5 +108,5 @@ for i, post in enumerate(posts, start=1):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(post, f, ensure_ascii=False, indent=2)
 
-print(f"✅ Готово. Извлечено постов: {len(posts)}")
-print(f"📁 Посты сохранены в папке: {OUTPUT_DIR}")
+print(f">>>> Готово. Извлечено постов: {len(posts)}")
+print(f">>>> Посты сохранены в папке: {OUTPUT_DIR}")

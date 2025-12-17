@@ -2,12 +2,13 @@ import os
 import chromadb
 from sentence_transformers import SentenceTransformer
 import requests  # тут может понадобиться openai или что-то еще, если ask_llm будет работать через клиента
+from BeerSynonymExpander import BeerSynonymExpander
 
 # ========== НАСТРОЙКИ ==========
 
 CHROMA_DIR = "./data/knowledge-base/chroma_db"
 COLLECTION_NAME = "gooddrink"
-EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large"
 TOP_K = 4
 
 # Yandex GPT
@@ -31,13 +32,16 @@ collection = chroma_client.get_collection(
     name=COLLECTION_NAME
 )
 
+sinonimaizer = BeerSynonymExpander()
+
 print(">>>>> Инициализируем LLM...")
 
 # ========== RAG-ФУНКЦИИ ==========
 
 def retrieve_chunks(query: str, top_k: int = TOP_K):
     """Ищем релевантные чанки"""
-    query_embedding = embedding_model.encode(query).tolist()
+    enreached_query = sinonimaizer.expand_text(query)
+    query_embedding = embedding_model.encode(enreached_query).tolist()
 
     results = collection.query(
         query_embeddings=[query_embedding],
@@ -68,9 +72,10 @@ def build_prompt(query: str, chunks: list[dict]) -> str:
     context = "\n\n".join(context_blocks)
 
     prompt = f"""
-Ты — эксперт по крафтовому пиву.
+Ты — эксперт по крафтовому пиву и немного по другим напиткам тоже.
 Используй ТОЛЬКО информацию из источников ниже.
-Отвечай по формату, указанному ниже.
+Если вопрос про конкретное название - отвечай по формату, указанному ниже.
+Если вопрос про вкусовые качества - приведи примеры, пиши все размышления по теме.
 Если информации недостаточно — честно скажи об этом.
 
 ФОРМАТ ОТВЕТА:

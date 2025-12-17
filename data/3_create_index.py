@@ -12,9 +12,10 @@ POSTS_DIR = "./data/knowledge-base/posts"
 CHROMA_DIR = "./data/knowledge-base/chroma_db"
 COLLECTION_NAME = "gooddrink"
 
-EMBEDDING_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+EMBEDDING_MODEL_NAME = "intfloat/multilingual-e5-large"
+    
 
-CHUNK_SIZE = 800       # символы (прибл. 150–250 слов)
+CHUNK_SIZE = 800       # символы (прибл. 150-250 слов)
 CHUNK_OVERLAP = 100
 
 # =======================
