@@ -202,14 +202,23 @@ A: Punk IPA — это популярный сорт крафтового пив
             return False
         
         # Проверка ключевых слов (хотя бы одно должно присутствовать)
+        stop_words = ["к сожалению" "нет информации", "сожалению"]
         answer_lower = answer.lower()
         has_keywords = any(keyword in answer_lower for keyword in self.bot_config.SUCCESS_KEYWORDS)
+        has_failed_keywords = any(bad_keyword.lower() in answer_lower for bad_keyword in self.bot_config.FAILED_KEYWORDS) # stop_words) 
+        #print(f"good_worlds: {self.bot_config.SUCCESS_KEYWORDS}") 
+        #print(f"fail_worlds: {self.bot_config.FAILED_KEYWORDS}") 
+        #print(f"answer_lower: {answer_lower}") 
+        #print(f"has_keywords: {has_keywords}")  
+        #print(f"has_failed_keywords: {has_failed_keywords}")    
         
         # Проверка осмысленности (простая эвристика)
-        has_structure = any(marker in answer for marker in ["1.", "2.", "•", "- ", "http", "://"])
+        has_structure = any(marker in answer for marker in ["1.", "2.", "•", "- ", "https", "://"])
         
-        # Успешный ответ должен иметь ключевые слова И структуру И чанки
-        return has_keywords and has_structure and len(chunks) > 0
+        # Успешный ответ должен иметь ключевые слова И структуру И чанки И не иметь стоп-слов
+        res = has_keywords and has_structure and len(chunks) > 0 and not has_failed_keywords
+        print(f"result: {res}")  
+        return res 
     
     def rag_answer_with_logging(self, query: str, mode: OperationMode = OperationMode.CONSOLE, 
                                 user_id: Optional[str] = None) -> Tuple[str, LogEntry]:

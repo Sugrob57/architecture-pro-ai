@@ -50,14 +50,6 @@ class AutoTestMode:
                     if question and not question.startswith('#'):
                         questions.append(question)
         except FileNotFoundError:
-            # Если файл не найден, используем дефолтные вопросы
-            questions = [
-                "Что такое Punk IPA?",
-                "Какие бывают сорта крафтового пива?",
-                "Расскажи про стауты",
-                "Что такое палэль эль?",
-                "Какое пиво самое популярное в России?"
-            ]
             print(f"Файл {filepath} не найден, использую стандартные вопросы")
         
         return questions

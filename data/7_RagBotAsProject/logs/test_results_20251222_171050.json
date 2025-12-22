@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Galaxy стоит пробовать?",
+    "timestamp": "2025-12-22T17:10:36.828520",
+    "has_answer": true,
+    "answer_length": 193,
+    "is_successful": true,
+    "sources_count": 3,
+    "response_time_ms": 976,
+    "answer_preview": "1. Galaxy — это сорт крафтового пива, которое имеет интересное послевкусие. Оно долгое и хмельно-гор..."
+  },
+  {
+    "question": "Что можешь сказать про Punk IPA?",
+    "timestamp": "2025-12-22T17:10:37.964210",
+    "has_answer": true,
+    "answer_length": 195,
+    "is_successful": true,
+    "sources_count": 3,
+    "response_time_ms": 1135,
+    "answer_preview": "1. Punk IPA — это популярный сорт крафтового пива с крепостью 5,4%. ИПАстость, горечь и насыщенность..."
+  },
+  {
+    "question": "Какую West Coast IPA стоит попробовать?",
+    "timestamp": "2025-12-22T17:10:39.749528",
+    "has_answer": true,
+    "answer_length": 344,
+    "is_successful": true,
+    "sources_count": 3,
+    "response_time_ms": 1785,
+    "answer_preview": "1. West Coast IPA имеет среднюю интенсивность вкуса и горечи. Один из примеров — Narayana от Labirin..."
+  },
+  {
+    "question": "Посоветуй не кислый сидр?",
+    "timestamp": "2025-12-22T17:10:41.211575",
+    "has_answer": true,
+    "answer_length": 265,
+    "is_successful": true,
+    "sources_count": 3,
+    "response_time_ms": 1461,
+    "answer_preview": "1. Rasberry queen — это сидр с крепостью 6%, который имеет оценку ИПАстость: 9/10, Вкус, насыщенност..."
+  },
+  {
+    "question": "Какой стаут стоит попробовать?",
+    "timestamp": "2025-12-22T17:10:42.357347",
+    "has_answer": true,
+    "answer_length": 253,
+    "is_successful": true,
+    "sources_count": 3,
+    "response_time_ms": 1145,
+    "answer_preview": "1. Espresso double staut — это стаут с умеренной горечью (2/10), средней насыщенностью вкуса (7/10) ..."
+  },
+  {
+    "question": "Посоветуй что-нибудь от Zagovor?",
+    "timestamp": "2025-12-22T17:10:44.060586",
+    "has_answer": true,
+    "answer_length": 480,
+    "is_successful": false,
+    "sources_count": 3,
+    "response_time_ms": 1703,
+    "answer_preview": "A: К сожалению, без дополнительной информации о предпочтениях в пиве сложно дать конкретный совет. О..."
+  },
+  {
+    "question": "Что из Saldens достойно внимания?",
+    "timestamp": "2025-12-22T17:10:46.556608",
+    "has_answer": true,
+    "answer_length": 494,
+    "is_successful": true,
+    "sources_count": 3,
+    "response_time_ms": 2495,
+    "answer_preview": "1. Sultans IPA — это India pale ale с оценкой ИПАстости, горечи, вкуса и насыщенности на уровне 6/10..."
+  },
+  {
+    "question": "Какие отзывы об ипе Атомная прачечная?",
+    "timestamp": "2025-12-22T17:10:48.103623",
+    "has_answer": true,
+    "answer_length": 401,
+    "is_successful": true,
+    "sources_count": 3,
+    "response_time_ms": 1546,
+    "answer_preview": "1. В источниках нет подробной информации об IPA «Атомная прачечная», но упоминается, что это пиво яв..."
+  },
+  {
+    "question": "Что советуешь из топ10?",
+    "timestamp": "2025-12-22T17:10:48.592252",
+    "has_answer": true,
+    "answer_length": 92,
+    "is_successful": false,
+    "sources_count": 3,
+    "response_time_ms": 488,
+    "answer_preview": "К сожалению, в предоставленных источниках нет информации о конкретных сортах пива из топ-10."
+  },
+  {
+    "question": "Какое шампанское порекомендуешь?",
+    "timestamp": "2025-12-22T17:10:50.029929",
+    "has_answer": true,
+    "answer_length": 370,
+    "is_successful": false,
+    "sources_count": 3,
+    "response_time_ms": 1437,
+    "answer_preview": "К сожалению, в предоставленных источниках нет информации о конкретных видах шампанского, которые мож..."
+  },
+  {
+    "question": "а что из вина порекомендуешь?",
+    "timestamp": "2025-12-22T17:10:50.485060",
+    "has_answer": true,
+    "answer_length": 89,
+    "is_successful": false,
+    "sources_count": 3,
+    "response_time_ms": 455,
+    "answer_preview": "К сожалению, в предоставленных источниках нет информации для рекомендации конкретных вин."
+  }
+]
